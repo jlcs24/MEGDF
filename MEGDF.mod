@@ -226,7 +226,6 @@ parameters
 	eta_1               ${eta_1}$		(long_name='Parametro que define el tamaño de costos de ajuste de la inversión en sector 1')
 	eta_2               ${eta_2}$		(long_name='Parametro que define el tamaño de costos de ajuste de la inversión en sector 2')
 	eta_3               ${eta_3}$		(long_name='Parametro que define el tamaño de costos de ajuste de la inversión en sector 3')
-
 	eta_g               ${eta_g}$		(long_name='Parametro que define costos de ajuste de la inversión en infraestructura')
 	teta                ${teta}$		(long_name='Elasticidad del valor agregado con respecto al capital publico efectivo')
 	iota                ${iota}$		(long_name='Parametro de politica de la regla de taylor')
@@ -239,15 +238,13 @@ parameters
 	xi_2                ${xi_2}$		(long_name='Costo de ajuste de precios en sector 2')
 	xi_m                ${xi_m}$		(long_name='Costo de ajuste de precios en sector importador')
 	pi_c                ${pi_c}$		(long_name='Tasa bruta de inflacion de largo plazo de la canasta de bienes de consumo')
-
 	pi_as_c             ${pi_as_c}$		(long_name='Tasa bruta de inflacion externa')
 	rho                 ${rho}$		(long_name='Elasticidad del spreadcon respecto a la deuda externa total')
 	ginversa            ${ginversa}$	(long_name='Parametro de suavizacion en la regla monetaria')
 	sigmamin            ${sigmamin}$	(long_name='Parametro de ajuste de gasto en la regla fiscal')
 	sigma               ${sigma}$		(long_name='Valor absoluto de la elasticidad precio de la demanda de exportaciones')
 	fi                  ${fi}$		(long_name='Parametro que gobierna tamaño de markup')
-	
-fimin               ${fimin}$		(long_name='Grado de congestion o rivalidad entre capital publico y privado')
+	fimin               ${fimin}$		(long_name='Grado de congestion o rivalidad entre capital publico y privado')
 	erre                ${erre}$		(long_name='Tasa bruta de interes nominal de largo plazo')
 	ji_11               ${ji_11}$		(long_name='Requerimiento de insumo del sector 1 en la produccion bruta del sector 1')
 	ji_12               ${ji_12}$		(long_name='Requerimiento de insumo del sector 1 en la produccion bruta del sector 2')
